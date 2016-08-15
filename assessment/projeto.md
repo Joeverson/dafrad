@@ -21,8 +21,9 @@ Assim, será exigido que a apresentação possua um tempo máximo de 3 minutos e
 **Equipe #1**: IENA
 > [Proposta]() e [Código Fonte](https://github.com/joeverson/IENA)
 
-> Membros:
-* Nome - matricula
+> Membros: 
+- Joerverson Santos - 20132370420
+- Eder Pires
 
 **Equipe #2**: AgendaProject
 > [Proposta]() e [Código Fonte]()
