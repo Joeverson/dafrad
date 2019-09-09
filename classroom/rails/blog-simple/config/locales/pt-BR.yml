@@ -19,38 +19,37 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-en:
+pt-BR:
   hello: "Hello world"
   activerecord:
     models:
-      user: "user"
-
+      user: "usuário"
     attributes:
       user:
-        name: 'Name'
+        name: 'Nome'
         email: 'Email'
-        password: 'Password'
-        password_confirmation: 'Password confirmation'
+        password: 'Senha'
+        password_confirmation: 'Confirmação de senha'
   users:
     new:
-      submit: 'Sign up'
+      submit: 'Cadastrar'
       error:
-        one: "%{count} error prohibited this user from being saved:"
-        other: "%{count} errors prohibited this user from being saved:"
+        one: "%{count} erro impediu a criação desse usuário:"
+        other: "%{count} erros impediram a criação desse usuário"
   sessions:
     create:
-      error: 'Username and/or Password Invalid.'
+      error: 'Nome e/ou senha inválida.'
     new:
-      submit: 'Login'
+      submit: 'Entrar'
   layouts:
     application:
       blog: 'Blog'
-      new_article: 'Create Article'
-      logout: 'Logout'
-      signup: 'Sign up'
-      login: 'Login'
+      new_article: 'Criar Artigo'
+      logout: 'Sair'
+      signup: 'Cadastrar'
+      login: 'Entrar'
   helpers:
     label:
       login:
         email: 'Email'
-        password: 'Password'
+        password: 'Senha'

@@ -2,5 +2,20 @@
   <div class="panel-body">
     <h2><%= article.title %></h1>
     <p><%= article.text %></p>
+
+    <% if current_user %>
+      <%= link_to 'Edit', edit_article_path(article) %> |
+      <%= link_to 'Destroy', article_path(article),
+      method: :delete,
+      data: { confirm: 'Are you sure?' } %>
+    <% end %>
+
+    <h2>Comments</h2>
+    <div id="comments">
+      <%= render @article.comments %>
+    </div>
+
+    <h2>Add a comment:</h2>
+    <%= render 'comments/form' %>
   </div>
 </article>

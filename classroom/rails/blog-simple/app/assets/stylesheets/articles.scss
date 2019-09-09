@@ -3,4 +3,9 @@ body{
   h1 {
     text-align: center;
   }
+  form {
+    textarea {
+      min-height: 300px;
+    }
+  }
 }
